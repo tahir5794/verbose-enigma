@@ -107,6 +107,8 @@ void search(records student[])
 			{
 				printf("\n=> Remarks: Fail! Try again next year!\n");
 			}
+			
+			return;
 		}
 	}
 	printf("\n\nNo records found for %s", query);
