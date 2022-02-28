@@ -12,7 +12,7 @@ typedef struct
     float percent;
 }records;
 
-void sort(records student[]);			//Prototype of user defined sort function.
+void sort(records student[]);               //Prototype of user defined sort function.
 void display(records student[]);	   //Prototype of user defined display function.
 void search(records student[]); 	  //Prototype of user defined search function.
 
@@ -30,7 +30,7 @@ int main()
         student[i].percent = ((float)(student[i].eng + student[i].math + student[i].sci) / (MAX_MARKS * 3)) * 100;
     }
 
-    sort(student);				//Calling the Sort function.
+    sort(student);                  //Calling the Sort function.
     display(student);		   //Calling the Display function.
     search(student);		  // Calling the Search Function.
 }
