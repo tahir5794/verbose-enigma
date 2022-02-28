@@ -54,8 +54,8 @@ void sort(records student[])
         student[largest_index].roll = temp;
 
         records swap = student[i];
-	    student[i] = student[largest_index];         // sorting the array by swapping the value at largest index and value at selected index.
-	    student[largest_index] = swap;
+	student[i] = student[largest_index];         // sorting the array by swapping the value at largest index and value at selected index.
+	student[largest_index] = swap;
     }
 }
 
