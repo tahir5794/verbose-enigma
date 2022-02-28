@@ -111,5 +111,5 @@ void search(records student[])
 			return;
 		}
 	}
-	printf("\n\nNo records found for %s", query);
+	printf("\n\nSorry! No records found for %s", query);
 }
